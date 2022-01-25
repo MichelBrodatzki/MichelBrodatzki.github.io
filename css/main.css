@@ -1,0 +1,93 @@
+body {
+    padding: 2rem;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.primary_color {
+    color: #b22222;
+
+}
+
+
+/* hexagon css generated with http://brenna.github.io/csshexagon/ */
+.hexagon {
+    position: relative;
+    width: 150px; 
+    height: 86.60px;
+    margin: 43.30px 0;
+    background-image: url(https://michelbrodatzki.github.io/img/brodatzki.jpg);
+    background-size: auto 173.2051px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  .hexTop,
+  .hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 106.07px;
+    height: 106.07px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 21.97px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  /*counter transform the bg image on the caps*/
+  .hexTop:after,
+  .hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 150.0000px;
+    height: 86.60254037844388px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+  }
+  
+  .hexTop {
+    top: -53.0330px;
+  }
+  
+  .hexTop:after {
+    background-position: center top;
+  }
+  
+  .hexBottom {
+    bottom: -53.0330px;
+  }
+  
+  .hexBottom:after {
+    background-position: center bottom;
+  }
+  
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0.0000px;
+    left: 0;
+    width: 150.0000px;
+    height: 86.6025px;
+    z-index: 2;
+    background: inherit;
+  }
